@@ -1,0 +1,14 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(250, 232, 199, 0.174);
+    width: auto;
+}
+
+main {
+    background: white;
+}

@@ -1,0 +1,120 @@
+/* Titulos */
+
+.vermelhobandeira  {
+    background: rgba(255, 0, 0, 0.072);
+    font-size: 2rem;
+    padding-left: 2rem;
+    border-radius: 10px ;
+    border: 2px solid rgba(255, 0, 0, 0.379);
+}
+
+.cinzabandeira {
+    font-size: 2rem;
+    padding-left: 2rem;
+    border-radius: 10px ;
+    border: 2px solid rgb(209, 209, 209);
+}
+
+.azulbandeira {
+    background: rgba(29, 29, 250, 0.072);
+    font-size: 2rem;
+    padding-left: 2rem;
+    border-radius: 10px ;
+    border: 2px solid rgba(29, 29, 250, 0.379);
+}
+
+/* começo Origem da croacia */
+
+.historia {
+    display: flex;
+}
+
+.his p{
+    width: 36rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 2rem;
+}
+
+.hist img{
+    width: 32rem;
+    height: 22rem;
+    margin-left: 2rem;
+}
+
+/* final Origem da croacia */
+
+/* começo Culturas */
+
+.cultura {
+    display: flex;
+}
+
+.cultura img {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 2rem;
+}
+
+.cul p {
+    width: 30rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 2rem;
+}
+
+
+/* final culturas */
+
+/* começo Dados Gerais */
+
+.dadosgerais {
+    width: 30rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 2rem;
+}
+
+/* final Dados Gerais */
+
+/* começo governo da croácia */
+
+.politica {
+    width: 67rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.politica img {
+    padding: 2rem;
+}
+/* final governo da croácia */
+
+/* começo Pontos turisticos */
+
+img {
+    width: 25rem;
+    height: 15rem;
+}
+
+.blocos{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.imagem img {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.imagem p {
+    width: 25rem;
+    text-align: justify;
+}
+
+.tpt {
+    font-size: 1.4rem;
+}
