@@ -1,0 +1,24 @@
+@media (max-width: 700px){
+    .texthistoria {
+        display: block;
+        margin: 1rem;
+    }
+
+    .textcultura {
+        display: block;
+        margin: 2rem;
+    }
+
+    .textpolitica {
+        display: block;
+    }
+
+    .textP {
+        width: 38rem;
+    }
+
+    .blocos {
+        display: block;
+        margin-left: 1rem;
+    }
+}

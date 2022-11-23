@@ -1,14 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
-    margin: 1;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background: rgba(250, 232, 199, 0.174);
-    width: auto;
+    background: rgba(233, 230, 230, 0.556);
 }
 
-main {
-    background: white;
+/* barra de menu */
+
+#menu-h {
+    background-color: rgb(37, 37, 39);
 }
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h img {
+    width: 2rem;
+    height: 3rem;
+}
+
+#menu-h ul li:last-child img {
+    float: left;
+}
+/* barra de menu */

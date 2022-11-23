@@ -6,13 +6,16 @@
     padding-left: 2rem;
     border-radius: 10px ;
     border: 2px solid rgba(255, 0, 0, 0.379);
+    margin: 1rem;
 }
 
 .cinzabandeira {
+    background: rgba(189, 188, 188, 0.185);
     font-size: 2rem;
     padding-left: 2rem;
     border-radius: 10px ;
     border: 2px solid rgb(209, 209, 209);
+    margin: 1rem;
 }
 
 .azulbandeira {
@@ -21,46 +24,57 @@
     padding-left: 2rem;
     border-radius: 10px ;
     border: 2px solid rgba(29, 29, 250, 0.379);
+    margin: 1rem;
 }
 
 /* começo Origem da croacia */
 
-.historia {
+#historia {
+    background: white;
+    border-radius: 10px;
+}
+
+.texthistoria {
     display: flex;
 }
 
-.his p{
-    width: 36rem;
+.his {
+    width: 40rem;
     font-size: 1.2rem;
     text-align: justify;
-    margin-left: 2rem;
+    margin: .5rem;
 }
 
 .hist img{
     width: 32rem;
-    height: 22rem;
-    margin-left: 2rem;
+    height: 20rem;
+    margin: 2rem;
 }
 
 /* final Origem da croacia */
 
 /* começo Culturas */
 
-.cultura {
+#cultura {
+    background: white;
+    border-radius: 10px;
+}
+
+.textcultura {
     display: flex;
 }
 
-.cultura img {
+.textcultura img {
     width: 15rem;
     height: 10rem;
-    margin-left: 2rem;
+    margin: 1rem;
 }
 
 .cul p {
-    width: 30rem;
+    width: 34rem;
     font-size: 1.2rem;
     text-align: justify;
-    margin-left: 2rem;
+    margin: 2rem;
 }
 
 
@@ -68,8 +82,13 @@
 
 /* começo Dados Gerais */
 
-.dadosgerais {
-    width: 30rem;
+#dadosgerais {
+    background: white;
+    border-radius: 10px;
+}
+
+.textdados {
+    width: 50rem;
     font-size: 1.2rem;
     text-align: justify;
     margin-left: 2rem;
@@ -79,16 +98,28 @@
 
 /* começo governo da croácia */
 
-.politica {
-    width: 67rem;
+#politica {
+    background: white;
+    border-radius: 10px;
+}
+
+.textpolitica {
+    width: 69rem;
     font-size: 1.2rem;
     text-align: justify;
     margin-left: 2rem;
     display: flex;
 }
 
-.politica img {
-    padding: 2rem;
+.textpolitica img {
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.textpolitica p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 1rem;
 }
 /* final governo da croácia */
 
@@ -99,6 +130,11 @@ img {
     height: 15rem;
 }
 
+#pontos {
+    background: white;
+    border-radius: 10px;
+}
+
 .blocos{
     display: flex;
     justify-content: center;
@@ -107,12 +143,13 @@ img {
 
 .imagem img {
     display: flex;
-    margin-right: 5rem;
+    margin: 2rem;
 }
 
 .imagem p {
     width: 25rem;
     text-align: justify;
+    margin-bottom: 3rem;
 }
 
 .tpt {
