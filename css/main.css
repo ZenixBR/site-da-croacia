@@ -1,16 +1,16 @@
 /* Titulos */
 
 .vermelhobandeira  {
-    background: rgba(255, 0, 0, 0.072);
+    background: var(--vermelho-tr);
     font-size: 2rem;
     padding-left: 2rem;
     border-radius: 10px ;
-    border: 2px solid rgba(255, 0, 0, 0.379);
+    border: 2px solid var(--vermelho-tr-forte);
     margin: 1rem;
 }
 
 .cinzabandeira {
-    background: rgba(189, 188, 188, 0.185);
+    background: var(--cinza-claro);
     font-size: 2rem;
     padding-left: 2rem;
     border-radius: 10px ;
@@ -19,18 +19,18 @@
 }
 
 .azulbandeira {
-    background: rgba(29, 29, 250, 0.072);
+    background: var(--azul-tr);
     font-size: 2rem;
     padding-left: 2rem;
     border-radius: 10px ;
-    border: 2px solid rgba(29, 29, 250, 0.379);
+    border: 2px solid var(--azul-tr-forte);
     margin: 1rem;
 }
 
 /* começo Origem da croacia */
 
 #historia {
-    background: white;
+    background: var(--branco);
     border-radius: 10px;
 }
 
@@ -56,7 +56,7 @@
 /* começo Culturas */
 
 #cultura {
-    background: white;
+    background: var(--branco);
     border-radius: 10px;
 }
 
@@ -83,7 +83,7 @@
 /* começo Dados Gerais */
 
 #dadosgerais {
-    background: white;
+    background: var(--branco);
     border-radius: 10px;
 }
 
@@ -99,7 +99,7 @@
 /* começo governo da croácia */
 
 #politica {
-    background: white;
+    background: var(--branco);
     border-radius: 10px;
 }
 
@@ -131,7 +131,7 @@ img {
 }
 
 #pontos {
-    background: white;
+    background: var(--branco);
     border-radius: 10px;
 }
 
